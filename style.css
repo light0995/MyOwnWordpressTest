@@ -81,6 +81,7 @@ h2 {
   margin-top: 45px;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 
 }
 
@@ -98,4 +99,5 @@ h2 {
     display: block;
     margin: 0 auto;
     margin-top: 15px;
+    cursor: pointer;
 }
