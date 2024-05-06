@@ -72,8 +72,9 @@ h2 {
 }
 
 .promo .promo_btn {
-  width: 313px;
+  min-width: 313px;
   height: 72px;
+  font-size: 21px;
   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
   border: none;
   display: block;
@@ -82,22 +83,77 @@ h2 {
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .more {
-    margin-top: 73px;
+  margin-top: 73px;
 }
 
 .more .more_text {
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .more .more_img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 15px;
-    cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.waiting {
+  min-height: 604px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+
+
+
+
+.waiting_header {
+  margin-top: 0;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.waiting_divider {
+  border-bottom: 3px solid #f9bf3b;
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.waiting_subheader {
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 15px;
+}
+
+.waiting .waiting_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.waiting_item {
+  width: 339px;
 }
